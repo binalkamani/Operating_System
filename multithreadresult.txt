@@ -1,0 +1,56 @@
+{cslinux1:~/OS_Project/Matrix with threading} time ./a.out
+Thread = 0 is starting 
+Thread = 10 is starting 
+Thread = 2 is starting 
+Thread = 11 is starting 
+Thread = 12 is starting 
+Thread = 1 is starting 
+Thread = 5 is starting 
+Thread = 6 is starting 
+Thread = 7 is starting 
+Thread = 3 is starting 
+Thread = 9 is starting 
+Thread = 8 is starting 
+Thread = 13 is starting 
+Thread = 4 is starting 
+Thread = 14 is starting 
+Thread = 15 is starting 
+Thread = 16 is starting 
+Thread = 17 is starting 
+Thread = 19 is starting 
+Thread = 21 is starting 
+Thread = 20 is starting 
+Thread = 18 is starting 
+Thread = 22 is starting 
+Thread = 23 is starting 
+Thread = 24 is starting 
+Thread = 0 is ending 
+Thread = 1 is ending 
+Thread = 2 is ending 
+Thread = 3 is ending 
+Thread = 4 is ending 
+Thread = 5 is ending 
+Thread = 6 is ending 
+Thread = 7 is ending 
+Thread = 8 is ending 
+Thread = 9 is ending 
+Thread = 10 is ending 
+Thread = 11 is ending 
+Thread = 12 is ending 
+Thread = 13 is ending 
+Thread = 14 is ending 
+Thread = 15 is ending 
+Thread = 16 is ending 
+Thread = 17 is ending 
+Thread = 18 is ending 
+Thread = 19 is ending 
+Thread = 20 is ending 
+Thread = 21 is ending 
+Thread = 22 is ending 
+Thread = 23 is ending 
+Thread = 24 is ending 
+
+real	16m7.380s
+user	176m31.046s
+sys	2m56.715s
+{cslinux1:~/OS_Project/Matrix with threading} 
