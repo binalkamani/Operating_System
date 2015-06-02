@@ -1,0 +1,44 @@
+******Compile and Run*******
+
+gcc fsaccess.c
+./a.out
+
+*********commands_syntax***********
+
+1. initfs:
+syntax : initfs /home/004/v/vm/vmk130030/fs.txt 1000 300
+file will be created with name fs in directory as given
+no of free blocks = 1000
+no of free inodes = 300
+
+fs.txt = file which is file system file containing superblock,inode structures etc.
+
+2. cpin:
+
+syntax : cpin /home/004/v/vm/vmk130030/exfile.c /home/004/v/vm/vmk130030/v6file.c
+
+exfile.c = external file
+v6file.c = V6 file
+
+content of FS1.c will be copied into FSNEW.c file as well as will be written into fs.txt file free blocks
+
+3. cpout:
+
+syntax : /home/004/v/vm/vmk130030/v6file.c /home/004/v/vm/vmk130030/exfile.c
+
+v6file.c = V6 file
+exfile.c = external file
+ 
+4. makedir:
+
+syntax : makedir /home/004/v/vm/vmk130030/directory
+
+5. q:
+
+exit from created modified V6 shell
+
+
+*****Points to note*****
+
+1. Use the file path as mentioned (same path of the directory, can change v6file and exfile name)
+2. After each command execute file again (./a.out)
